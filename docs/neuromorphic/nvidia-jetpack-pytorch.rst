@@ -22,7 +22,7 @@ Once in the shell, log into the cluster and request a new allocation on rudi2 (t
       
 .. code::
 
-    -w salloc -t 1:00:00 -p rg-neuro -w rudi2
+    salloc -t 1:00:00 -p rg-neuro -w rudi2
 
 Once the allocation is accepted, create a new python virtual environment and activate it:
 
